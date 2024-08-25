@@ -1,0 +1,7 @@
+{
+    "path-autocomplete.extensionOnImport": true,
+    "path-autocomplete.pathMappings": {
+        "$root": "${folder}/src",
+        "@": "${folder}/src"
+    }
+}

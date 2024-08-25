@@ -1,0 +1,92 @@
+# OS-generated files #
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js #
+node_modules/
+
+# Xcode #
+DerivedData/
+*.xcuserdatad
+*.xccheckout
+*.ide*
+*.xcworkspace/
+*.xcworkspacedata
+*.xcsettings
+*.xcuserstate
+*.xcuserdatad
+*.xcbuilddata
+*.xcplugindata
+*.xcprojectdata
+*.pbxuser
+*.xcchangelog
+*.xcresult
+*.xcresult plist
+*.xcresult plist.lock
+
+# CocoaPods #
+Pods/
+
+# macOS #
+*.iml
+*.xib
+*.nib
+*~.nib
+
+# Localized *
+.lproj/
+*.kdev4
+
+# Other #
+.svn/
+.git/
+.hg/
+.bzr/
+.lock-wscript
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Icon?
+ehthumbs.db
+.Spotlight-V100
+.Trashes
+
+# Packages #
+*.dmg
+*.egg
+*.gz
+*.iso
+*.bz2
+*.7z
+*.rar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.pkg
+*.deb
+*.rpm
+*.nupkg
+
+# Xcode Workspace Templates #
+.xctemplate/
+.xctemplatedata/
+
+# Other IDEs #
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.bak2
+*.tmp2
+
+# TextMate, Sublime Text, VSCode, etc. #
+*.tmproj
+*.sublime-workspace
+
+# obsidian
+.obsidian/
+
+dist/
