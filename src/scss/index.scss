@@ -1,14 +1,10 @@
-// @px2rem
-h1 {
-    color: transparent;
-    background: linear-gradient(to right, cyan, magenta);
-    background-size: 100% 100%;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-}
-img {
-    &.eye {
-        width: 300px;
+@use 'sass:math';
+.container {
+    outline: 1px solid #000;
+    position: relative;
+    p {
+        font-size: 12px;
+        transform: scale(math.div(8, 12));
+        margin-left: -10%;
     }
 }

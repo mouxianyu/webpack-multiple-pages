@@ -5,12 +5,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const workplaceDir = process.cwd()
 const getMultiPageConfig = function ({srcDir = 'src', entryDir = 'entry', templateDir = 'html'} = {}) {
     const isDev = process.env.NODE_ENV === 'development'
-    const files = glob
-        .sync([
-            path.resolve(workplaceDir, `${srcDir}/${entryDir}/**/*.js`),
-            path.resolve(workplaceDir, `${srcDir}/${entryDir}/**/*.ts`)
-        ])
-        .filter(file => !file.includes('/module/'))
+    const files = glob.sync([
+        path.resolve(workplaceDir, `${srcDir}/${entryDir}/**/*.js`),
+        path.resolve(workplaceDir, `${srcDir}/${entryDir}/**/*.ts`)
+    ])
     const config = files.reduce(
         (acc, file) => {
             // 获取js文件名，如
