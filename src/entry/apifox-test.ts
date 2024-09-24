@@ -8,5 +8,4 @@ fetch(url, {
         console.log(data)
     })
 
-// 分支feat-1 第一次修改
-// 2. main分支修改
+// 2.main修改
