@@ -8,5 +8,4 @@ fetch(url, {
         console.log(data)
     })
 
-// 使用merge
-// 使用merge2
+// b修改
