@@ -9,3 +9,4 @@ fetch(url, {
     })
 
 // 使用merge
+// 使用merge2
