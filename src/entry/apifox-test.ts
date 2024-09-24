@@ -8,5 +8,4 @@ fetch(url, {
         console.log(data)
     })
 
-// 1.feat-1修改
-// 2.main修改
+// 使用merge
